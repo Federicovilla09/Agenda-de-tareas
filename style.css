@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  background-color: #c0eef2;
+  height: 80px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.nav-menu .menu {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.nav-menu h2 {
+  margin-left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav-menu .buscador {
+  margin-left: 60px;
+}
+
+.nav-menu .buscador input {
+  height: 36px;
+  width: 370px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.nav-configuraciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.nav-configuraciones img {
+  width: 30px;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.nav-configuraciones .logo {
+  margin-left: 140px;
+}
+
+/* Section */
+
+section {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.seccion-listas {
+  height: 470px;
+  border: 1px solid #c0eef2;
+  margin: 6px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.seccion-listas ul {
+  margin-top: 20px;
+}
+
+.seccion-listas img {
+  width: 30px;
+}
+
+.seccion-listas li{
+  list-style: none;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  border-top: 1px solid #c0eef2;
+  cursor: pointer;
+}
+
+.seccion-tareas {
+  height: 470px;
+  border: 1px solid #c0eef2;
+  margin: 6px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.seccion-tareas h3 {
+  font-size: 26px;
+  border-bottom: 1px solid #c0eef2;
+}
+
+.seccion-tareas div .tarea {
+  height: 34px;
+  width: 800px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border: 1px solid #c0eef2;
+  border-radius: 6px;
+}
+
+.seccion-tareas button {
+  margin-left: 20px;
+  width: 800px;
+  height: 30px;
+  border: 1px solid #c0eef2;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.seccion-tareas button:hover{
+  background-color: #94b6b9;
+  color: #c0eef2;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+
