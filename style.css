@@ -35,15 +35,24 @@ nav {
 }
 
 .nav-menu .buscador {
-  margin-left: 60px;
+  margin-left: 40px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .nav-menu .buscador input {
-  height: 36px;
+  height: 38px;
   width: 370px;
   border: none;
   border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 12px;
+}
+
+.nav-menu .buscador img {
+  width: 26px;
+  margin-right: 6px;
+  cursor: pointer;
 }
 
 .nav-configuraciones {
@@ -118,6 +127,7 @@ section {
   margin-left: 20px;
   border: 1px solid #c0eef2;
   border-radius: 6px;
+  padding: 12px;
 }
 
 .seccion-tareas button {
